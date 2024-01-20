@@ -225,7 +225,7 @@ class AssignmentScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Theoretical Physics",
+                            "Physical Exercise",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,
