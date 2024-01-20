@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:levon_consulting_assignment/screens/bottom_navigation_bar_screen.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class AssignmentScreen extends StatelessWidget {
@@ -11,9 +12,7 @@ class AssignmentScreen extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 242, 242, 242),
       appBar: AppBar(
         leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
+          onPressed: () {},
           icon: const Icon(
             Icons.arrow_back,
           ),
@@ -146,7 +145,7 @@ class AssignmentScreen extends StatelessWidget {
                         height: 80,
                         width: 75,
                         decoration: BoxDecoration(
-                          color: Color.fromARGB(19, 0, 38, 255),
+                          color: const Color.fromARGB(19, 0, 38, 255),
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: const Icon(
