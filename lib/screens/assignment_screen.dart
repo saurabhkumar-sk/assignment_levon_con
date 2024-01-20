@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:levon_consulting_assignment/screens/bottom_navigation_bar_screen.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class AssignmentScreen extends StatelessWidget {
@@ -130,6 +129,7 @@ class AssignmentScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 15),
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -196,6 +196,7 @@ class AssignmentScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 15),
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -239,24 +240,26 @@ class AssignmentScreen extends StatelessWidget {
                             ),
                           ),
                           TextButton.icon(
-                              onPressed: null,
-                              icon: const FaIcon(
-                                FontAwesomeIcons.filePdf,
+                            onPressed: null,
+                            icon: const FaIcon(
+                              FontAwesomeIcons.filePdf,
+                              color: Color.fromARGB(192, 255, 0, 85),
+                            ),
+                            label: const Text(
+                              "Download pdf",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(192, 255, 0, 85),
                               ),
-                              label: const Text(
-                                "Download pdf",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Color.fromARGB(192, 255, 0, 85),
-                                ),
-                              ))
+                            ),
+                          ),
                         ],
                       ),
                     ],
                   ),
                 ),
               ),
+              const SizedBox(height: 15),
             ],
           ),
         ),
